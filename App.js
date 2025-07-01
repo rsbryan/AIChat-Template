@@ -53,8 +53,6 @@ export default function App() {
   });
 
       const data = await response.json();
-      console.log('Response status:', response.status);
-      console.log('Response data:', data);
 
       if (response.ok) {
         const aiMessage = {
